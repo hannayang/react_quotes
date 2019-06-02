@@ -17,4 +17,14 @@
   padding: 0 40px 40px 40px; 
 }
 
+@media(max-width: 900px) {
+  .quote {
+    width: 70%; 
+  }
+}
 
+@media(max-width: 550px) {
+  .quote-text {
+    font-size: 20px; 
+  }
+}

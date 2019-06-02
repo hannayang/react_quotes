@@ -1,5 +1,5 @@
 .btn {
-  width: 40%; 
+  width: 450px; 
   margin: 0 auto; 
   padding-bottom: 170px; 
   font-family: 'Open Sans', sans-serif;
@@ -53,3 +53,11 @@ button:hover {
   font-size: 14px; 
 }
 
+@media(max-width: 620px) {
+  .btn {
+    width: 400px; 
+  }
+  .newQuote {
+    margin-left: 80px; 
+  }
+}
