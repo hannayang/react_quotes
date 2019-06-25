@@ -1,5 +1,6 @@
 {
-  "name": "react_random_quote",
+  "name": "react_quotes",
+  "homepage": "https://hannayang.github.io/react_quotes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
