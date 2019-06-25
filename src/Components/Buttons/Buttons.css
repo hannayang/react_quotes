@@ -67,7 +67,8 @@ button:hover {
     width: 280px; 
   }
   .newQuote {
+    width: 125px;
     font-size: 13px; 
-    margin-left: 35px; 
+    margin-left: 40px; 
   }
 }
