@@ -35,18 +35,17 @@ a {
   color: inherit; 
 }
 
-a:hover {
-  font-weight: 800; 
-}
-
-button:hover {
-  font-size: 18px; 
-}
-
 .newQuote {
   width: 110px; 
   margin-left: 250px; 
+  transform: translateY(0);
+  transition: all 0.4s cubic-bezier(.06,.67,.37,.99);
 }
+
+.newQuote:hover {
+  transform: translateY(-.2rem);
+}
+
 .endnote {
   color: white; 
   padding-top: 30px; 
