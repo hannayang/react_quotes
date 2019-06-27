@@ -72,3 +72,49 @@ button:hover {
     white-space: nowrap; 
   }
 }
+
+@media(min-width: 1400px) {
+  button {
+    font-size: 20px; 
+  }
+  .btn {
+    width: 600px; 
+  }
+  .newQuote {
+    width: 150px; 
+    margin-left: 350px; 
+  }
+  .endnote {
+    padding-top: 60px; 
+    font-size: 20px; 
+  }
+}
+
+@media(min-width: 2000px) {
+  button {
+    font-size: 30px; 
+  }
+  .btn {
+    width: 1000px; 
+    margin-top: 200px;
+  }
+  .fabBtn {
+    font-size: 44px; 
+  }
+  .twitterBtn {
+    padding: 7px 16px;
+    margin-right: 25px; 
+  }
+  .tumblrBtn {
+    padding: 7px 22px; 
+  }
+  .newQuote {
+    width: 220px; 
+    height: 90px;   
+    margin-left: 540px; 
+  }
+  .endnote {
+    padding-top: 90px; 
+    font-size: 28px; 
+  }
+}
