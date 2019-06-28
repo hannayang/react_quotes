@@ -21,7 +21,14 @@
 @media(min-height: 1030px) {
   .App {
     padding-top: 430px; 
-    padding-bottom: 120px; 
+    padding-bottom: 140px; 
+  }
+}
+
+@media(min-height: 1160px) {
+  .App {
+    padding-top: 430px; 
+    padding-bottom: 180px; 
   }
 }
 
