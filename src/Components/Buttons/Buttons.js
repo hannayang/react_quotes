@@ -13,7 +13,7 @@ const buttons = (props) => {
         style = {props.buttonStyle}> 
         New quote
       </button>
-      <p className = 'endnote'> by Hanna Yang </p>
+      <p className = 'endnote'> by <a href='https://hannayang.github.io/my_resume/' target='_blank'>Hanna Yang</a> </p>
     </div>
   )
 }; 
